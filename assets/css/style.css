@@ -22,10 +22,6 @@ header {
 	border-bottom: 3px solid #cccccc;
 }
 
-#Lineunder {
-	border-top: solid #dddddd;
-}
-
 section {
 		float: left;
 }
@@ -39,6 +35,8 @@ a {
 h1, h3 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 3px solid #dddddd;
+	padding-bottom: 15px;
 }
 
 #aboutlink {
@@ -105,7 +103,6 @@ h1, h3 {
 }
 
 #InsideAboutMe, #Buttons {
-	border-top: 3px solid #dddddd;
 	padding: 20px 25px 0px 25px;
 	text-decoration: none;
 
@@ -151,7 +148,6 @@ h1, h3 {
 	float: none;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	border-top: solid #dddddd;
 }
 
 #submitform	{
@@ -165,7 +161,7 @@ h1, h3 {
 	width: 275px;
 	height: 200px;
 	float: left;
-	padding: 20px 20px 0px 20px;
+	padding: 20px 20px 10px 20px;
 }
 
 #hangmansection, #rpgsection, #triviasection, #rutgerssection, #rocksection {
